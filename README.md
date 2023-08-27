@@ -21,4 +21,4 @@ Una pequeña aplicación web que muestra una lista de los actores que han interp
 
 ## Contribución
 
-¡Contribuciones son bienvenidas! Si encuentras errores o deseas agregar nuevas características, siéntete libre de abrir un Issue o enviar un Pull Request.
+Si encuentras errores o deseas agregar nuevas características, siéntete libre de abrir un Issue o enviar un Pull Request.
