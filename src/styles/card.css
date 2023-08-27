@@ -1,16 +1,18 @@
 .main-name {
-  line-height: 1;
-  padding: 20px 20px;
   position: absolute;
-  color: #fff;
-  z-index: 10000;
-  bottom: 20px;
-  left: 0;
-  writing-mode: vertical-rl;
-  font-size: 3.5em;
-  rotate: 180deg;
   margin: 0;
+  padding: 20px 10px;
+  bottom: 20px;
+  left: -6px;
+  rotate: 180deg;
+  
+  color: #fff;
   background-color: #121212cc;
+  font-size: 3.5em;
+  line-height: 1;
+  writing-mode: vertical-rl;
+  z-index: 10000;
+
   transition: .5s;
 }
 
@@ -112,7 +114,7 @@ div.card > img {
     padding: 0;
     bottom: 0;
     left: 0;
-    writing-mode: horizontal-tb;
+    writing-mode: horizontal-tp;
     font-size: 1.5em;
     rotate: 0deg;
     margin: 0;
