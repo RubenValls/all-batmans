@@ -1,0 +1,21 @@
+---
+import '../styles/card.css'
+
+const { name, date, img, resume } = Astro.props.data
+---
+
+<div class="card">
+  <h1 class="main-name">{name.split(' ')[1]}</h1>
+  <div class="modal">
+    <h1>{name}</h1>
+    <h3>{date}</h3>
+    <a href="#" class="more">VER MÁS</a>
+  </div>
+  <div class="info">
+    <h4>{resume.title}</h4>
+    <p>{resume.res}</p>
+  </div>
+  <img src={img} alt="">
+</div>
+
+<script src="../code/card.js"></script>
