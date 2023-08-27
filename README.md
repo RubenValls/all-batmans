@@ -11,8 +11,8 @@ Una pequeña aplicación web que muestra una lista de los actores que han interp
 
 ## Captura de Pantalla
 
-![Captura de pantalla de la aplicación](./public/app-screenshot-2.png.png)
-![Captura de pantalla de la aplicación](./public/app-screenshot-3.png.png)
+![Captura de pantalla de la aplicación](./public/app-screenshot-2.png)
+![Captura de pantalla de la aplicación](./public/app-screenshot-3.png)
 
 ## Tecnologías Utilizadas
 
