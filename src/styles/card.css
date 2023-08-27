@@ -114,7 +114,7 @@ div.card > img {
     padding: 0;
     bottom: 0;
     left: 0;
-    writing-mode: horizontal-tp;
+    writing-mode: horizontal-tb;
     font-size: 1.5em;
     rotate: 0deg;
     margin: 0;
