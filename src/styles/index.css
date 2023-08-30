@@ -32,7 +32,7 @@ nav h1 {
   background-color: #fff;
   color: #121212;
   font-family: 'Montserrat';
-  font-weight: 1000;
+  font-weight: bolder;
   }
 
 nav > img {
@@ -48,6 +48,14 @@ nav > img {
 }
 
 @media (width < 1000px) {
+  nav h1 {
+    min-width: fit-content;
+    font-size: 1em;
+  }
+
+  .main-container {
+    height: auto;
+  }
   .img-container {
     flex-direction: column;
   }
