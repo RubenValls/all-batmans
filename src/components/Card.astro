@@ -1,11 +1,25 @@
 ---
 import '../styles/card.css'
 
+interface Props {
+  data: {
+    name: string,
+    date: string,
+    img: [
+      string, string
+    ],
+    resume: {
+      title: string,
+      res: string
+    }
+  }
+}
+
 const { name, date, img, resume } = Astro.props.data
 ---
 
 <div class="card">
-  <h1 class="main-name">{name.split(' ')[1]}</h1>
+  <h1 class="main-name">{name.split(' ')[1].toUpperCase()}</h1>
   <div class="modal">
     <h1>{name}</h1>
     <h3>{date}</h3>
@@ -14,8 +28,9 @@ const { name, date, img, resume } = Astro.props.data
   <div class="info">
     <h4>{resume.title}</h4>
     <p>{resume.res}</p>
+    <button class="close-modal-btn">Close</button>
   </div>
-  <img src={img} alt="">
+  <img src={img[1]} alt="">
 </div>
 
 <script src="../code/card.js"></script>

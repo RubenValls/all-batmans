@@ -1,34 +1,25 @@
 ---
 import '../styles/index.css'
 import finalData from '../mocks/data.json'
+import Layout from '../components/Layout.astro'
 import Card from '../components/Card.astro'
 import Header from '../components/Header.astro'
-import '@fontsource/montserrat'
 
 // const response = await fetch('all-batmans/src/mocks/data.json')
 // const data = await response.json()
 // const finalData = data
 
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/all-batmans/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>The Batmans</title>
-	</head>
-	<body>
-		<div class="main-container">
-			<Header />
-			<section class="img-container">
-				{
-					finalData?.map(item => (
-						<Card data={item} />
-					))
-				}
-			</section>
-		</div>
-	</body>
-</html>
+<Layout pageTitle='The Batmans'>
+	<div class="main-container">
+		<Header />
+		<section class="img-container">
+			{
+				finalData?.map(item => (
+					// comprobamos que el campo name tiene algo para renderizar
+					item.name !== '' && <Card data={item} />
+				))
+			}
+		</section>
+	</div>
+</Layout>

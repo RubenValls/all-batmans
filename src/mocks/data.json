@@ -2,7 +2,10 @@
   {
     "name": "ADAM WEST",
     "date": "1966 - 1968",
-    "img": "https://cdn.europosters.eu/image/750/art-photo/adam-west-batman-tv-1966-1968-i137225.jpg",
+    "img": [
+      "https://cdn.europosters.eu/image/750/art-photo/adam-west-batman-tv-1966-1968-i137225.jpg",
+      "b-west.jpg"
+    ],
     "resume": {
       "title": "El Batman de Adam West: Un Ícono del Camp y la Justicia en Pantalla",
       "res": "Adam West personificó un Caballero de la Noche extravagante y autoconsciente en la serie de los años 60. Con su estilo campy y teatral, enfrentó villanos coloridos en situaciones hilarantes. A pesar del tono ligero, West equilibró momentos emotivos y exploró temas de identidad y justicia. Su legado perdura, influyendo en futuras representaciones y recordándonos la versatilidad del personaje."
@@ -11,7 +14,10 @@
   {
     "name": "MICHAEL KEATON",
     "date": "1989 - 2023",
-    "img": "https://i.pinimg.com/originals/be/14/85/be1485956dfb473cf874db8a11d41de7.jpg",
+    "img": [
+      "https://i.pinimg.com/originals/be/14/85/be1485956dfb473cf874db8a11d41de7.jpg",
+      "b-keaton.jpg"
+    ],
     "resume": {
       "title": "La Icónica Encarnación de Michael Keaton como Batman",
       "res": "Michael Keaton revitalizó a Batman en los 80 y 90. Equilibrando la oscuridad interior de Bruce Wayne con la valentía del héroe enmascarado, su enigmática actuación dejó una huella perdurable en la cultura pop y en la percepción del Caballero Oscuro. Su estilo influyó en representaciones futuras, estableciendo el tono moderno y realista de Batman en el cine."
@@ -20,7 +26,10 @@
   {
     "name": "VAL KILMER",
     "date": "1995",
-    "img": "https://live.staticflickr.com/65535/51249175928_642fe9a095_z.jpg",
+    "img": [
+      "https://live.staticflickr.com/65535/51249175928_642fe9a095_z.jpg",
+      "b-kilmer.jpg"
+    ],
     "resume": {
       "title": "La Interpretación Cinematográfica de Val Kilmer como Batman",
       "res": "Val Kilmer ofreció una representación única de Batman en la película de mediados de los 90. Con una combinación de seriedad y misterio, exploró los conflictos internos de Bruce Wayne mientras enfrentaba a villanos como Dos Caras y el Riddler. Aunque breve, su interpretación agregó una capa al legado cinematográfico de Batman, recordándonos la versatilidad del personaje."
@@ -29,7 +38,10 @@
   {
     "name": "GEORGE CLOONEY",
     "date": "1997",
-    "img": "https://static.posters.cz/image/750/art-photo/george-clooney-batman-and-robin-1997-i87010.jpg",
+    "img": [
+      "https://static.posters.cz/image/750/art-photo/george-clooney-batman-and-robin-1997-i87010.jpg",
+      "b-clooney.jpg"
+    ],
     "resume": {
       "title": "La Breve Incursión de George Clooney como Batman",
       "res": "George Clooney dejó su marca en la película de finales de los 90. Aunque recibió críticas mixtas, su interpretación suave y humorística es parte del legado del Caballero Oscuro. Acompañado por un elenco estelar, Clooney aportó su estilo único al personaje, en contraste con las representaciones anteriores."
@@ -38,7 +50,10 @@
   {
     "name": "CHRISTIAN BALE",
     "date": "2005 - 2012",
-    "img": "https://api.time.com/wp-content/uploads/2016/03/batman-11.jpg",
+    "img": [
+      "https://api.time.com/wp-content/uploads/2016/03/batman-11.jpg",
+      "b-bale.jpg"
+    ],
     "resume": {
       "title": "La Profunda Transformación de Christian Bale como Batman",
       "res": "Christian Bale redefinió a Batman en la trilogía dirigida por Christopher Nolan. Encarnó a un Bruce Wayne atormentado y lleno de matices, llevando al público en un viaje de autodescubrimiento. Su transformación física y emocional se reflejó en su actuación en películas como \"Batman Begins\", \"The Dark Knight\" y \"The Dark Knight Rises\"."
@@ -47,7 +62,10 @@
   {
     "name": "BEN AFFLECK",
     "date": "2016 - 2022",
-    "img": "https://e0.pxfuel.com/wallpapers/167/463/desktop-wallpaper-ben-affleck-as-bruce-wayne-batman-batman-ben-affleck.jpg",
+    "img": [
+      "https://e0.pxfuel.com/wallpapers/167/463/desktop-wallpaper-ben-affleck-as-bruce-wayne-batman-batman-ben-affleck.jpg",
+      "b-affleck.jpg"
+    ],
     "resume": {
       "title": "La Versión de Ben Affleck como Batman",
       "res": "Ben Affleck asumió el papel de Batman en el Universo Extendido de DC. Su interpretación mostró a un Bruce Wayne más maduro y experimentado. Aunque opinada, Affleck aportó una presencia imponente y física al Caballero Oscuro. Exploró un Batman en un mundo lleno de héroes y amenazas, dejando una impresión duradera en la historia cinematográfica de Batman."
@@ -56,7 +74,10 @@
   {
     "name": "WILL ARNETT",
     "date": "2017",
-    "img": "https://www.mubis.es/media/users/12373/171270/batman-la-lego-pelicula-podria-recaudar-mas-de-100-millones-de-dolares-a-nivel-mundial-en-su-fin-de-semana-de-estreno-original.jpg",
+    "img": [
+      "https://www.mubis.es/media/users/12373/171270/batman-la-lego-pelicula-podria-recaudar-mas-de-100-millones-de-dolares-a-nivel-mundial-en-su-fin-de-semana-de-estreno-original.jpg",
+      "b-arnett.jpg"
+    ],
     "resume": {
       "title": "La Interpretación Cómica de Will Arnett como Batman",
       "res": "Will Arnett aportó su voz a la versión animada de Batman en \"The LEGO Movie\" y su spin-off \"The LEGO Batman Movie\". Su interpretación satírica y cómica mostró un Batman egocéntrico y sarcástico, capturando la esencia del personaje en tono de comedia y añadiendo una perspectiva única a la rica historia de Batman en la cultura pop."
@@ -64,6 +85,18 @@
   },
   {
     "name": "ROBERT PATTINSON",
+    "date": "2022",
+    "img": [
+      "https://elcritico.com.ar/wp-content/uploads/2022/04/batman-2.jpg",
+      "b-pattinson.jpg"
+    ],
+    "resume": {
+      "title": "La Interpretación de Robert Pattinson como Batman",
+      "res": "Robert Pattinson asumió el papel de Batman en la película \"The Batman\", ofreciendo un enfoque fresco y distintivo del Caballero Oscuro. Presenta a un Bruce Wayne complejo y atormentado, explorando su identidad y sus demonios internos en un tono más oscuro y detective. Su interpretación deja una huella en la rica historia cinematográfica del personaje, añadiendo una nueva capa al legado del superhéroe."
+    }
+  },
+  {
+    "name": "",
     "date": "2022",
     "img": "https://elcritico.com.ar/wp-content/uploads/2022/04/batman-2.jpg",
     "resume": {
