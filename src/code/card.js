@@ -4,6 +4,11 @@ const more = Array.from(document.getElementsByClassName('more'))
 
 const closeModalBtns = Array.from(document.querySelectorAll('.close-modal-btn'))
 
+cards.forEach(card => {
+  card.addEventListener('click', (e) => {
+  })
+})
+
 more.forEach(anchor => {
   anchor.addEventListener('click', () => {
     const info = (anchor.parentElement.nextElementSibling)
