@@ -28,16 +28,16 @@ div.card {
   box-shadow: -4px 0px 20px 10px rgba(0,0,0,.9);
 }
 
-div.card:hover {
+div.card.active {
   width: 25%;
   opacity: 1;
 }
 
-div.card:hover .modal {
+div.card.active .modal {
   display: flex;
 }
 
-div.card:hover .main-name {
+div.card.active .main-name {
   transform: translateX(120px)
 }
 
