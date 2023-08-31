@@ -145,7 +145,11 @@ div.card > img {
     max-height: 100px;
   }
   
+<<<<<<< HEAD
   div.card:hover, div.card:active {
+=======
+  div.card:active, div.card:hover {
+>>>>>>> 55b9f1086398e1ed7b761f028b5e817e3881b6c2
     width: 100%;
     max-height: 450px;
   }
