@@ -22,12 +22,11 @@ div.card {
   max-height: 100%;
   width: 0;
   flex-grow: 1;
-  transition: .5s;
+  transition: .25s;
   overflow: hidden;
 
   box-shadow: -4px 0px 20px 10px rgba(0,0,0,.9);
 }
-
 
 div.card:hover {
   width: 25%;
@@ -41,7 +40,6 @@ div.card:hover .modal {
 div.card:hover .main-name {
   transform: translateX(120px)
 }
-
 
 div.card > img {
   min-width: 100%;
@@ -104,6 +102,10 @@ div.card > img {
   backdrop-filter: blur(10px);
 }
 
+.info.visible {
+  display: flex;
+}
+
 .info button {
   width: fit-content;
   align-self: center;
@@ -135,23 +137,24 @@ div.card > img {
     rotate: 0deg;
     margin: 0;
   }
-  
-  div.card:hover .main-name {
-    display: none;
-  }
-  
+
   div.card {
     width: 100%;
     max-height: 100px;
   }
-  
-<<<<<<< HEAD
-  div.card:hover, div.card:active {
-=======
-  div.card:active, div.card:hover {
->>>>>>> 55b9f1086398e1ed7b761f028b5e817e3881b6c2
+
+  div.card.active {
     width: 100%;
     max-height: 450px;
+  }
+
+  div.card.active .main-name {
+    display: none;
+    transform: none
+  }
+
+  div.card.active .modal {
+    display: flex;
   }
 
   .info {
