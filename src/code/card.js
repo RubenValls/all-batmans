@@ -14,23 +14,32 @@ cards.forEach(card => {
     card.querySelector('.info').classList.remove('visible')
   })
 
+  let position
+
+  card.addEventListener('touchstart', ()=>{
+    position = scrollY
+  })
+
   card.addEventListener('touchend', (e) => {
+    if(scrollY === position) {
+      if(e.currentTarget.classList.contains('active')){
+        if(!e.target.classList.contains('more') && !e.target.classList.contains('info')) {
+          console.log(e.currentTarget)
+          e.currentTarget.classList.remove('active')
+          card.querySelector('.info').classList.remove('visible')
+        }
+      } else {
+        cards.forEach(card => {
+          card.classList.remove('active')
+          card.querySelector('.info').classList.remove('visible')
+        })
+  
+        e.currentTarget.classList.add('active')
+      }
+    }
     // console.log(e.target)
     // console.log(e.currentTarget)
 
-    if(e.currentTarget.classList.contains('active')){
-      if(!e.target.classList.contains('more') && !e.target.classList.contains('info')) {
-        console.log(e.currentTarget)
-        e.currentTarget.classList.remove('active')
-      }
-    } else {
-      cards.forEach(card => {
-        card.classList.remove('active')
-        card.querySelector('.info').classList.remove('visible')
-      })
-
-      e.currentTarget.classList.add('active')
-    }
   })
 })
 
@@ -43,6 +52,8 @@ mores.forEach(more => {
 
 closeModalBtns.forEach(closeBtn => {
   closeBtn.addEventListener('click', (e) => {
-    e.currentTarget.parentElement.classList.remove('visible')
+    console.log(e.target)
+    console.log(e.currentTarget)
+    // e.target.parentElement.classList.remove('visible')
   })
 })
