@@ -5,7 +5,8 @@ const more = Array.from(document.getElementsByClassName('more'))
 const closeModalBtns = Array.from(document.querySelectorAll('.close-modal-btn'))
 
 cards.forEach(card => {
-  card.addEventListener('click', (e) => {
+  card.addEventListener('touchend', (e) => {
+    console.log(e)
   })
 })
 
