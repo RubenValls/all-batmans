@@ -37,9 +37,6 @@ cards.forEach(card => {
         e.currentTarget.classList.add('active')
       }
     }
-    // console.log(e.target)
-    // console.log(e.currentTarget)
-
   })
 })
 
@@ -54,6 +51,5 @@ closeModalBtns.forEach(closeBtn => {
   closeBtn.addEventListener('click', (e) => {
     console.log(e.target)
     console.log(e.currentTarget)
-    // e.target.parentElement.classList.remove('visible')
   })
 })
