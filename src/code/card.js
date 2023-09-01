@@ -49,7 +49,6 @@ mores.forEach(more => {
 
 closeModalBtns.forEach(closeBtn => {
   closeBtn.addEventListener('click', (e) => {
-    console.log(e.target)
-    console.log(e.currentTarget)
+    e.target.parentElement.classList.remove('visible')
   })
 })
