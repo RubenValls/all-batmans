@@ -26,6 +26,7 @@ div.card {
   overflow: hidden;
 
   box-shadow: -4px 0px 20px 10px rgba(0,0,0,.9);
+  transition: all 0.75s;
 }
 
 div.card.active {
